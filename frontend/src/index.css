@@ -13,11 +13,13 @@ body {
 
 main {
   flex: 1;
+  margin: 2rem;
 }
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 2rem;
 }
 
 .product {

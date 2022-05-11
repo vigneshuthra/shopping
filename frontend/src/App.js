@@ -45,6 +45,8 @@ function App() {
               </LinkContainer>
               <Nav className="me-auto">
                 <Link to="/cart" className="nav-link">
+                <i class="fas fa-shopping-cart"></i>
+
                   Cart
                   {cart.cartItems.length > 0 && (
                     <Badge pill bg="danger">
